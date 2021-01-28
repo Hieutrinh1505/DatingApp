@@ -45,6 +45,12 @@ namespace API.Data.Migrations
                 table: "Users",
                 type: "TEXT",
                 nullable: true);
+            
+            migrationBuilder.AddColumn<string>(
+                name: "Introduction",
+                table: "Users",
+                type: "TEXT",
+                nullable: true);
 
             migrationBuilder.AddColumn<string>(
                 name: "Interests",
